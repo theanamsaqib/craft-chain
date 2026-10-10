@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144" fill="none">
+  <!-- block-print rosette -->
+  <g transform="translate(72 72)" stroke="#9A031E" stroke-opacity="0.2" stroke-width="1.5">
+    <circle r="31"/>
+    <circle r="26" stroke-dasharray="2 4"/>
+    <ellipse rx="9" ry="26"/>
+    <ellipse rx="9" ry="26" transform="rotate(45)"/>
+    <ellipse rx="9" ry="26" transform="rotate(90)"/>
+    <ellipse rx="9" ry="26" transform="rotate(135)"/>
+    <circle r="9"/>
+    <circle r="3" fill="#9A031E" fill-opacity="0.2"/>
+  </g>
+  <!-- saffron ring of dots around the rosette -->
+  <g fill="#FB8B24" fill-opacity="0.42">
+    <circle cx="72" cy="34" r="1.6"/><circle cx="72" cy="110" r="1.6"/>
+    <circle cx="34" cy="72" r="1.6"/><circle cx="110" cy="72" r="1.6"/>
+    <circle cx="45" cy="45" r="1.6"/><circle cx="99" cy="45" r="1.6"/>
+    <circle cx="45" cy="99" r="1.6"/><circle cx="99" cy="99" r="1.6"/>
+  </g>
+  <!-- ember dots between the rosettes (they join up across tiles) -->
+  <g fill="#E36414" fill-opacity="0.32">
+    <circle cx="0" cy="0" r="3"/><circle cx="144" cy="0" r="3"/>
+    <circle cx="0" cy="144" r="3"/><circle cx="144" cy="144" r="3"/>
+    <circle cx="72" cy="0" r="2"/><circle cx="72" cy="144" r="2"/>
+    <circle cx="0" cy="72" r="2"/><circle cx="144" cy="72" r="2"/>
+  </g>
+  <!-- small teal dots -->
+  <g fill="#0F4C5C" fill-opacity="0.32">
+    <circle cx="14" cy="14" r="1.5"/><circle cx="130" cy="14" r="1.5"/>
+    <circle cx="14" cy="130" r="1.5"/><circle cx="130" cy="130" r="1.5"/>
+  </g>
+</svg>
