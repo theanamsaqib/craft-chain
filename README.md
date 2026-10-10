@@ -23,7 +23,7 @@ Each person who touches it adds a stop to its journey, and anyone can scan a QR 
 
 ---
 
-## ✨ Why this exists
+## Why this exists
 
 When you buy a handwoven saree or a block-printed scarf, a paper tag says "handmade". There is no way to check it.
 Craft-Chain makes that claim checkable:
@@ -36,7 +36,7 @@ Craft-Chain makes that claim checkable:
 <p align="center"><img src="docs/screenshot-home.png" width="800"></p>
 -->
 
-## 🧭 How it works
+##  How it works
 
 ```mermaid
 flowchart LR
@@ -56,7 +56,7 @@ flowchart LR
 | **Hand over** | Passes the batch to the next person |
 | **Track** | Lists every batch. Click one to see its hang tag and journey |
 
-## 🔐 Who is allowed to do what?
+##  Who is allowed to do what?
 
 The smart contract checks it, not the website:
 
@@ -66,7 +66,7 @@ require(ownerOf(tokenId) == msg.sender, "Not batch owner");
 
 Only the wallet that currently holds a batch can add updates to it. Switch MetaMask accounts and the contract rejects you.
 
-## 🗂️ Where the data lives
+##  Where the data lives
 
 | Data | Where | Why |
 | --- | --- | --- |
@@ -76,7 +76,7 @@ Only the wallet that currently holds a batch can add updates to it. Switch MetaM
 
 The website has no database. It rebuilds every batch's story from blockchain events.
 
-## 🛠️ Built with
+##  Built with
 
 - **Contract:** Solidity 0.8.28, OpenZeppelin v5 (ERC721, ERC721URIStorage, AccessControl), Hardhat
 - **Frontend:** Next.js 14, ethers v6, MetaMask, qrcode.react
@@ -95,14 +95,20 @@ craft-chain/
     └── src/app/          # pages, BatchView, /api/pin
 ```
 
-## 🚀 Run it yourself
+##  Run it yourself
 
 **1. Contract**
 
 ```bash
 cd contracts
+```
+```bash
 npm install
+```
+```bash
 npx hardhat test
+```
+```bash
 npx hardhat run scripts/deploy.js --network sepolia
 ```
 
@@ -117,7 +123,11 @@ PRIVATE_KEY=<test wallet key, never your real one>
 
 ```bash
 cd frontend
+```
+```bash
 npm install
+```
+```bash
 npm run dev
 ```
 
@@ -137,12 +147,16 @@ Open http://localhost:3000, connect MetaMask on Sepolia, and create a batch.
 ## 📸 Screenshots
 
 <!-- Add 2–3 screenshots: Make tab, Track list, hang tag with journey -->
+<img width="1876" height="897" alt="Screenshot 2026-10-11 001729" src="https://github.com/user-attachments/assets/ce5c6265-be09-4193-926e-78a97c5d8ff8" />
+<img width="1898" height="666" alt="Screenshot 2026-10-11 001749" src="https://github.com/user-attachments/assets/e8df7a7a-3faf-4224-97ea-5adba983e78e" />
+<img width="1892" height="897" alt="Screenshot 2026-10-11 001816" src="https://github.com/user-attachments/assets/1b5d5a1e-3823-4396-996e-0ce73e3ccacc" />
+
 
 ---
 
 <div align="center">
 
-Built by [Annie](https://github.com/theanamsaqib) as a blockchain course project.
+Built as a blockchain course project.
 
 **Read the whole codebase as text:** [GitIngest](https://gitingest.com/theanamsaqib/craft-chain)
 
