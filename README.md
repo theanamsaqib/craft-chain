@@ -11,7 +11,7 @@ Each person who touches it adds a stop to its journey, and anyone can scan a QR 
 
 [![Live App](https://img.shields.io/badge/Live_App-Open-5F0F40?style=for-the-badge)](<(https://craft-chain-iota.vercel.app/)>)
 [![Contract](https://img.shields.io/badge/Contract-Sepolia-0F4C5C?style=for-the-badge)](https://sepolia.etherscan.io/address/0xeBAb6C19bC410DbD0a44Dba3D6A731862105Cf83)
-[![Demo](https://img.shields.io/badge/Demo-Video-E36414?style=for-the-badge)](<YOUR-VIDEO-LINK>)
+
 
 ![Solidity](https://img.shields.io/badge/Solidity-0.8.28-363636?logo=solidity&logoColor=white)
 ![Hardhat](https://img.shields.io/badge/Hardhat-2-FFF100?logo=ethereum&logoColor=black)
